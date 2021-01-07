@@ -3,9 +3,10 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "android": "react-native run-android",
-    "ios": "react-native run-ios",
-    "start": "react-native start",
+    "a": "react-native run-android",
+    "i": "react-native run-ios",
+    "s": "react-native start",
+    "u":"git add . && git commit -m \"project init\" && git push",
     "test": "jest",
     "lint": "eslint ."
   },
