@@ -1,1 +1,1 @@
-cd react_native_UI_elementUI_Sample && npx react-native run-ios && react-native start 
+cd react_native_UI_elementUI_Sample && react-native start 
