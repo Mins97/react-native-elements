@@ -20,3 +20,10 @@ npx react-native init AwesomeProject
 
 ## 실행 단축 sh 파일
 sh start
+
+### 사용한 라이브러리
+```
+npm install react-native-elements
+npm install @react-navigation/native @react-navigation/stack
+npm install react-native-reanimated react-native-gesture-handler react-native-screens react-native-safe-area-context @react-native-community/masked-view
+```

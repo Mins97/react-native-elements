@@ -27,6 +27,28 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
+const list = ["Avatar"
+,"Badge"
+,"Bottom Sheet"
+,"Button"
+,"ButtonGroup"
+,"Card"
+,"CheckBox"
+,"Divider"
+,"Header"
+,"Icon"
+,"Image"
+,"Input"
+,"ListItem"
+,"Overlay"
+,"Pricing"
+,"Rating"
+,"SearchBar"
+,"Slider"
+,"SocialIcon"
+,"Text"
+,"Tile"
+,"Tooltip"]
 const App = () => {
   return (
     <Fragment>
@@ -36,27 +58,16 @@ const App = () => {
           contentInsetAdjustmentBehavior="automatic"
           style={styles.scrollView}>
           <Header />
-          <View style={styles.body}>
-            <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>튼sds</Text>
-       
+          {list.map(r => 
+            <Button key={r} onPress={ ()=>navigator.navigate(r)}>
+            <View style={styles.body}>
+              <View style={styles.sectionContainer}>
+                <Text style={styles.sectionTitle}>{r}</Text>
             </View>
-
           </View>
-        </ScrollView>
-      </SafeAreaView>
-      <SafeAreaView>
-        <ScrollView
-          contentInsetAdjustmentBehavior="automatic"
-          style={styles.scrollView}>
-          <Header />
-          <View style={styles.body}>
-            <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>튼sds</Text>
-       
-            </View>
-
-          </View>
+          </Button>
+        )}
+        
         </ScrollView>
       </SafeAreaView>
     </Fragment>
