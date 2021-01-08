@@ -7,7 +7,11 @@
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
+<<<<<<< HEAD
 	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+=======
+	<string>org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)</string>
+>>>>>>> 9c1beb0d91392624c3a91035b13498fcda4b3058
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>

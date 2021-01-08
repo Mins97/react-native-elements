@@ -20,6 +20,10 @@ DerivedData
 *.hmap
 *.ipa
 *.xcuserstate
+<<<<<<< HEAD
+=======
+project.xcworkspace
+>>>>>>> 9c1beb0d91392624c3a91035b13498fcda4b3058
 
 # Android/IntelliJ
 #
@@ -39,7 +43,10 @@ yarn-error.log
 buck-out/
 \.buckd/
 *.keystore
+<<<<<<< HEAD
 !debug.keystore
+=======
+>>>>>>> 9c1beb0d91392624c3a91035b13498fcda4b3058
 
 # fastlane
 #

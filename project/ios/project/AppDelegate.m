@@ -1,9 +1,20 @@
+<<<<<<< HEAD
+=======
+/**
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+>>>>>>> 9c1beb0d91392624c3a91035b13498fcda4b3058
 #import "AppDelegate.h"
 
 #import <React/RCTBridge.h>
 #import <React/RCTBundleURLProvider.h>
 #import <React/RCTRootView.h>
 
+<<<<<<< HEAD
 #ifdef FB_SONARKIT_ENABLED
 #import <FlipperKit/FlipperClient.h>
 #import <FlipperKitLayoutPlugin/FlipperKitLayoutPlugin.h>
@@ -23,14 +34,19 @@ static void InitializeFlipper(UIApplication *application) {
 }
 #endif
 
+=======
+>>>>>>> 9c1beb0d91392624c3a91035b13498fcda4b3058
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+<<<<<<< HEAD
 #ifdef FB_SONARKIT_ENABLED
   InitializeFlipper(application);
 #endif
 
+=======
+>>>>>>> 9c1beb0d91392624c3a91035b13498fcda4b3058
   RCTBridge *bridge = [[RCTBridge alloc] initWithDelegate:self launchOptions:launchOptions];
   RCTRootView *rootView = [[RCTRootView alloc] initWithBridge:bridge
                                                    moduleName:@"project"

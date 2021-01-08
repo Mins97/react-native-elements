@@ -1,6 +1,7 @@
 package com.project;
 
 import android.app.Application;
+<<<<<<< HEAD
 import android.content.Context;
 import com.facebook.react.PackageList;
 import com.facebook.react.ReactApplication;
@@ -9,10 +10,20 @@ import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
 import com.facebook.soloader.SoLoader;
 import java.lang.reflect.InvocationTargetException;
+=======
+
+import com.facebook.react.PackageList;
+import com.facebook.react.ReactApplication;
+import com.facebook.react.ReactNativeHost;
+import com.facebook.react.ReactPackage;
+import com.facebook.soloader.SoLoader;
+
+>>>>>>> 9c1beb0d91392624c3a91035b13498fcda4b3058
 import java.util.List;
 
 public class MainApplication extends Application implements ReactApplication {
 
+<<<<<<< HEAD
   private final ReactNativeHost mReactNativeHost =
       new ReactNativeHost(this) {
         @Override
@@ -34,6 +45,28 @@ public class MainApplication extends Application implements ReactApplication {
           return "index";
         }
       };
+=======
+  private final ReactNativeHost mReactNativeHost = new ReactNativeHost(this) {
+    @Override
+    public boolean getUseDeveloperSupport() {
+      return BuildConfig.DEBUG;
+    }
+
+    @Override
+    protected List<ReactPackage> getPackages() {
+      @SuppressWarnings("UnnecessaryLocalVariable")
+      List<ReactPackage> packages = new PackageList(this).getPackages();
+      // Packages that cannot be autolinked yet can be added manually here, for example:
+      // packages.add(new MyReactNativePackage());
+      return packages;
+    }
+
+    @Override
+    protected String getJSMainModuleName() {
+      return "index";
+    }
+  };
+>>>>>>> 9c1beb0d91392624c3a91035b13498fcda4b3058
 
   @Override
   public ReactNativeHost getReactNativeHost() {
@@ -44,6 +77,7 @@ public class MainApplication extends Application implements ReactApplication {
   public void onCreate() {
     super.onCreate();
     SoLoader.init(this, /* native exopackage */ false);
+<<<<<<< HEAD
     initializeFlipper(this, getReactNativeHost().getReactInstanceManager());
   }
 
@@ -76,5 +110,7 @@ public class MainApplication extends Application implements ReactApplication {
         e.printStackTrace();
       }
     }
+=======
+>>>>>>> 9c1beb0d91392624c3a91035b13498fcda4b3058
   }
 }

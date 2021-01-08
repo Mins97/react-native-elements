@@ -3,10 +3,17 @@
  * https://github.com/facebook/react-native
  *
  * @format
+<<<<<<< HEAD
  * @flow strict-local
  */
 
 import React from 'react';
+=======
+ * @flow
+ */
+
+import React, {Fragment} from 'react';
+>>>>>>> 9c1beb0d91392624c3a91035b13498fcda4b3058
 import {
   SafeAreaView,
   StyleSheet,
@@ -24,20 +31,29 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
+<<<<<<< HEAD
 const App: () => React$Node = () => {
   return (
     <>
+=======
+const App = () => {
+  return (
+    <Fragment>
+>>>>>>> 9c1beb0d91392624c3a91035b13498fcda4b3058
       <StatusBar barStyle="dark-content" />
       <SafeAreaView>
         <ScrollView
           contentInsetAdjustmentBehavior="automatic"
           style={styles.scrollView}>
           <Header />
+<<<<<<< HEAD
           {global.HermesInternal == null ? null : (
             <View style={styles.engine}>
               <Text style={styles.footer}>Engine: Hermes</Text>
             </View>
           )}
+=======
+>>>>>>> 9c1beb0d91392624c3a91035b13498fcda4b3058
           <View style={styles.body}>
             <View style={styles.sectionContainer}>
               <Text style={styles.sectionTitle}>Step One</Text>
@@ -68,7 +84,11 @@ const App: () => React$Node = () => {
           </View>
         </ScrollView>
       </SafeAreaView>
+<<<<<<< HEAD
     </>
+=======
+    </Fragment>
+>>>>>>> 9c1beb0d91392624c3a91035b13498fcda4b3058
   );
 };
 
@@ -76,10 +96,13 @@ const styles = StyleSheet.create({
   scrollView: {
     backgroundColor: Colors.lighter,
   },
+<<<<<<< HEAD
   engine: {
     position: 'absolute',
     right: 0,
   },
+=======
+>>>>>>> 9c1beb0d91392624c3a91035b13498fcda4b3058
   body: {
     backgroundColor: Colors.white,
   },
@@ -101,6 +124,7 @@ const styles = StyleSheet.create({
   highlight: {
     fontWeight: '700',
   },
+<<<<<<< HEAD
   footer: {
     color: Colors.dark,
     fontSize: 12,
@@ -109,6 +133,8 @@ const styles = StyleSheet.create({
     paddingRight: 12,
     textAlign: 'right',
   },
+=======
+>>>>>>> 9c1beb0d91392624c3a91035b13498fcda4b3058
 });
 
 export default App;
