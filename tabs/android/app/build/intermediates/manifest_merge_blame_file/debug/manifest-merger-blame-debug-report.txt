@@ -1,0 +1,240 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.tabs"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="29" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->C:\_myProject\react_native_bareTab_windows_starter\tabs\android\app\src\main\AndroidManifest.xml:3:3-75
+11-->C:\_myProject\react_native_bareTab_windows_starter\tabs\android\app\src\main\AndroidManifest.xml:3:20-73
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\_myProject\react_native_bareTab_windows_starter\tabs\android\app\src\main\AndroidManifest.xml:2:3-64
+12-->C:\_myProject\react_native_bareTab_windows_starter\tabs\android\app\src\main\AndroidManifest.xml:2:20-62
+13    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+13-->C:\_myProject\react_native_bareTab_windows_starter\tabs\android\app\src\main\AndroidManifest.xml:4:3-72
+13-->C:\_myProject\react_native_bareTab_windows_starter\tabs\android\app\src\main\AndroidManifest.xml:4:20-70
+14    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+14-->C:\_myProject\react_native_bareTab_windows_starter\tabs\android\app\src\main\AndroidManifest.xml:5:3-71
+14-->C:\_myProject\react_native_bareTab_windows_starter\tabs\android\app\src\main\AndroidManifest.xml:5:20-69
+15    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+15-->C:\_myProject\react_native_bareTab_windows_starter\tabs\android\app\src\main\AndroidManifest.xml:6:3-69
+15-->C:\_myProject\react_native_bareTab_windows_starter\tabs\android\app\src\main\AndroidManifest.xml:6:20-67
+16    <uses-permission android:name="android.permission.VIBRATE" />
+16-->C:\_myProject\react_native_bareTab_windows_starter\tabs\android\app\src\main\AndroidManifest.xml:7:3-63
+16-->C:\_myProject\react_native_bareTab_windows_starter\tabs\android\app\src\main\AndroidManifest.xml:7:20-61
+17    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+17-->C:\_myProject\react_native_bareTab_windows_starter\tabs\android\app\src\main\AndroidManifest.xml:8:3-77
+17-->C:\_myProject\react_native_bareTab_windows_starter\tabs\android\app\src\main\AndroidManifest.xml:8:20-75
+18    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+18-->C:\_myProject\react_native_bareTab_windows_starter\tabs\android\app\src\main\AndroidManifest.xml:9:3-78
+18-->C:\_myProject\react_native_bareTab_windows_starter\tabs\android\app\src\main\AndroidManifest.xml:9:20-76
+19    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+19-->C:\_myProject\react_native_bareTab_windows_starter\tabs\android\app\src\main\AndroidManifest.xml:10:3-76
+19-->C:\_myProject\react_native_bareTab_windows_starter\tabs\android\app\src\main\AndroidManifest.xml:10:20-74
+20    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+20-->C:\_myProject\react_native_bareTab_windows_starter\tabs\android\app\src\main\AndroidManifest.xml:11:3-82
+20-->C:\_myProject\react_native_bareTab_windows_starter\tabs\android\app\src\main\AndroidManifest.xml:11:20-80
+21    <uses-permission android:name="android.permission.CAMERA" />
+21-->C:\_myProject\react_native_bareTab_windows_starter\tabs\android\app\src\main\AndroidManifest.xml:12:3-62
+21-->C:\_myProject\react_native_bareTab_windows_starter\tabs\android\app\src\main\AndroidManifest.xml:12:20-60
+22    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+22-->C:\_myProject\react_native_bareTab_windows_starter\tabs\android\app\src\main\AndroidManifest.xml:13:3-68
+22-->C:\_myProject\react_native_bareTab_windows_starter\tabs\android\app\src\main\AndroidManifest.xml:13:20-66
+23    <uses-permission android:name="android.permission.READ_CONTACTS" />
+23-->C:\_myProject\react_native_bareTab_windows_starter\tabs\android\app\src\main\AndroidManifest.xml:14:3-69
+23-->C:\_myProject\react_native_bareTab_windows_starter\tabs\android\app\src\main\AndroidManifest.xml:14:20-67
+24    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+24-->C:\_myProject\react_native_bareTab_windows_starter\tabs\android\app\src\main\AndroidManifest.xml:15:3-70
+24-->C:\_myProject\react_native_bareTab_windows_starter\tabs\android\app\src\main\AndroidManifest.xml:15:20-68
+25    <uses-permission android:name="android.permission.READ_CALENDAR" />
+25-->C:\_myProject\react_native_bareTab_windows_starter\tabs\android\app\src\main\AndroidManifest.xml:16:3-69
+25-->C:\_myProject\react_native_bareTab_windows_starter\tabs\android\app\src\main\AndroidManifest.xml:16:20-67
+26    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+26-->C:\_myProject\react_native_bareTab_windows_starter\tabs\android\app\src\main\AndroidManifest.xml:17:3-70
+26-->C:\_myProject\react_native_bareTab_windows_starter\tabs\android\app\src\main\AndroidManifest.xml:17:20-68
+27    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+27-->C:\_myProject\react_native_bareTab_windows_starter\tabs\android\app\src\main\AndroidManifest.xml:18:3-77
+27-->C:\_myProject\react_native_bareTab_windows_starter\tabs\android\app\src\main\AndroidManifest.xml:18:20-75
+28    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+28-->C:\_myProject\react_native_bareTab_windows_starter\tabs\android\app\src\main\AndroidManifest.xml:19:3-78
+28-->C:\_myProject\react_native_bareTab_windows_starter\tabs\android\app\src\main\AndroidManifest.xml:19:20-76
+29    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+29-->C:\_myProject\react_native_bareTab_windows_starter\tabs\android\app\src\main\AndroidManifest.xml:20:3-70
+29-->C:\_myProject\react_native_bareTab_windows_starter\tabs\android\app\src\main\AndroidManifest.xml:20:20-68
+30    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+30-->[com.facebook.flipper:flipper:0.54.0] C:\Users\tkarn\.gradle\caches\transforms-2\files-2.1\75238863e6b45aca4b9c498f6fefb9f4\flipper-0.54.0\AndroidManifest.xml:16:5-76
+30-->[com.facebook.flipper:flipper:0.54.0] C:\Users\tkarn\.gradle\caches\transforms-2\files-2.1\75238863e6b45aca4b9c498f6fefb9f4\flipper-0.54.0\AndroidManifest.xml:16:22-73
+31    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+31-->[:expo-updates] C:\_myProject\react_native_bareTab_windows_starter\tabs\node_modules\expo-updates\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-79
+31-->[:expo-updates] C:\_myProject\react_native_bareTab_windows_starter\tabs\node_modules\expo-updates\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:22-76
+32    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+32-->[:expo-location] C:\_myProject\react_native_bareTab_windows_starter\tabs\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-77
+32-->[:expo-location] C:\_myProject\react_native_bareTab_windows_starter\tabs\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:22-74
+33    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+33-->[com.android.installreferrer:installreferrer:1.0] C:\Users\tkarn\.gradle\caches\transforms-2\files-2.1\e10a48c1a43471d74e3cbf3f8907fd48\jetified-installreferrer-1.0\AndroidManifest.xml:9:5-110
+33-->[com.android.installreferrer:installreferrer:1.0] C:\Users\tkarn\.gradle\caches\transforms-2\files-2.1\e10a48c1a43471d74e3cbf3f8907fd48\jetified-installreferrer-1.0\AndroidManifest.xml:9:22-107
+34    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+34-->[io.nlopez.smartlocation:library:3.2.11] C:\Users\tkarn\.gradle\caches\transforms-2\files-2.1\185ceba8a2b716d4f54bc4c30d5e7046\jetified-library-3.2.11\AndroidManifest.xml:15:5-98
+34-->[io.nlopez.smartlocation:library:3.2.11] C:\Users\tkarn\.gradle\caches\transforms-2\files-2.1\185ceba8a2b716d4f54bc4c30d5e7046\jetified-library-3.2.11\AndroidManifest.xml:15:22-95
+35    <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION" />
+35-->[io.nlopez.smartlocation:library:3.2.11] C:\Users\tkarn\.gradle\caches\transforms-2\files-2.1\185ceba8a2b716d4f54bc4c30d5e7046\jetified-library-3.2.11\AndroidManifest.xml:16:5-94
+35-->[io.nlopez.smartlocation:library:3.2.11] C:\Users\tkarn\.gradle\caches\transforms-2\files-2.1\185ceba8a2b716d4f54bc4c30d5e7046\jetified-library-3.2.11\AndroidManifest.xml:16:22-91
+36
+37    <application
+37-->C:\_myProject\react_native_bareTab_windows_starter\tabs\android\app\src\main\AndroidManifest.xml:21:3-34:17
+38        android:name="com.tabs.MainApplication"
+38-->C:\_myProject\react_native_bareTab_windows_starter\tabs\android\app\src\main\AndroidManifest.xml:21:16-47
+39        android:allowBackup="false"
+39-->C:\_myProject\react_native_bareTab_windows_starter\tabs\android\app\src\main\AndroidManifest.xml:21:162-189
+40        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+40-->[androidx.core:core:1.3.0] C:\Users\tkarn\.gradle\caches\transforms-2\files-2.1\e1f0764c0505c94615b22f37f2526db5\core-1.3.0\AndroidManifest.xml:24:18-86
+41        android:debuggable="true"
+42        android:icon="@mipmap/ic_launcher"
+42-->C:\_myProject\react_native_bareTab_windows_starter\tabs\android\app\src\main\AndroidManifest.xml:21:81-115
+43        android:label="@string/app_name"
+43-->C:\_myProject\react_native_bareTab_windows_starter\tabs\android\app\src\main\AndroidManifest.xml:21:48-80
+44        android:roundIcon="@mipmap/ic_launcher_round"
+44-->C:\_myProject\react_native_bareTab_windows_starter\tabs\android\app\src\main\AndroidManifest.xml:21:116-161
+45        android:theme="@style/AppTheme"
+45-->C:\_myProject\react_native_bareTab_windows_starter\tabs\android\app\src\main\AndroidManifest.xml:21:190-221
+46        android:usesCleartextTraffic="true" >
+46-->C:\_myProject\react_native_bareTab_windows_starter\tabs\android\app\src\debug\AndroidManifest.xml:6:18-53
+47        <meta-data
+47-->C:\_myProject\react_native_bareTab_windows_starter\tabs\android\app\src\main\AndroidManifest.xml:22:5-115
+48            android:name="expo.modules.updates.EXPO_UPDATE_URL"
+48-->C:\_myProject\react_native_bareTab_windows_starter\tabs\android\app\src\main\AndroidManifest.xml:22:16-67
+49            android:value="https://exp.host/@mins97/tabs" />
+49-->C:\_myProject\react_native_bareTab_windows_starter\tabs\android\app\src\main\AndroidManifest.xml:22:68-113
+50        <meta-data
+50-->C:\_myProject\react_native_bareTab_windows_starter\tabs\android\app\src\main\AndroidManifest.xml:23:5-93
+51            android:name="expo.modules.updates.EXPO_SDK_VERSION"
+51-->C:\_myProject\react_native_bareTab_windows_starter\tabs\android\app\src\main\AndroidManifest.xml:23:16-68
+52            android:value="40.0.0" />
+52-->C:\_myProject\react_native_bareTab_windows_starter\tabs\android\app\src\main\AndroidManifest.xml:23:69-91
+53        <meta-data
+53-->C:\_myProject\react_native_bareTab_windows_starter\tabs\android\app\src\main\AndroidManifest.xml:24:5-82
+54            android:name="expo.modules.updates.ENABLED"
+54-->C:\_myProject\react_native_bareTab_windows_starter\tabs\android\app\src\main\AndroidManifest.xml:24:16-59
+55            android:value="true" />
+55-->C:\_myProject\react_native_bareTab_windows_starter\tabs\android\app\src\main\AndroidManifest.xml:24:60-80
+56        <meta-data
+56-->C:\_myProject\react_native_bareTab_windows_starter\tabs\android\app\src\main\AndroidManifest.xml:25:5-105
+57            android:name="expo.modules.updates.EXPO_UPDATES_CHECK_ON_LAUNCH"
+57-->C:\_myProject\react_native_bareTab_windows_starter\tabs\android\app\src\main\AndroidManifest.xml:25:16-80
+58            android:value="ALWAYS" />
+58-->C:\_myProject\react_native_bareTab_windows_starter\tabs\android\app\src\main\AndroidManifest.xml:25:81-103
+59        <meta-data
+59-->C:\_myProject\react_native_bareTab_windows_starter\tabs\android\app\src\main\AndroidManifest.xml:26:5-99
+60            android:name="expo.modules.updates.EXPO_UPDATES_LAUNCH_WAIT_MS"
+60-->C:\_myProject\react_native_bareTab_windows_starter\tabs\android\app\src\main\AndroidManifest.xml:26:16-79
+61            android:value="0" />
+61-->C:\_myProject\react_native_bareTab_windows_starter\tabs\android\app\src\main\AndroidManifest.xml:26:80-97
+62
+63        <activity
+63-->C:\_myProject\react_native_bareTab_windows_starter\tabs\android\app\src\main\AndroidManifest.xml:27:5-32:16
+64            android:name="com.tabs.MainActivity"
+64-->C:\_myProject\react_native_bareTab_windows_starter\tabs\android\app\src\main\AndroidManifest.xml:27:15-43
+65            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+65-->C:\_myProject\react_native_bareTab_windows_starter\tabs\android\app\src\main\AndroidManifest.xml:27:77-154
+66            android:label="@string/app_name"
+66-->C:\_myProject\react_native_bareTab_windows_starter\tabs\android\app\src\main\AndroidManifest.xml:27:44-76
+67            android:launchMode="singleTask"
+67-->C:\_myProject\react_native_bareTab_windows_starter\tabs\android\app\src\main\AndroidManifest.xml:27:155-186
+68            android:theme="@style/Theme.App.SplashScreen"
+68-->C:\_myProject\react_native_bareTab_windows_starter\tabs\android\app\src\main\AndroidManifest.xml:27:230-275
+69            android:windowSoftInputMode="adjustResize" >
+69-->C:\_myProject\react_native_bareTab_windows_starter\tabs\android\app\src\main\AndroidManifest.xml:27:187-229
+70            <intent-filter>
+70-->C:\_myProject\react_native_bareTab_windows_starter\tabs\android\app\src\main\AndroidManifest.xml:28:7-31:23
+71                <action android:name="android.intent.action.MAIN" />
+71-->C:\_myProject\react_native_bareTab_windows_starter\tabs\android\app\src\main\AndroidManifest.xml:29:9-60
+71-->C:\_myProject\react_native_bareTab_windows_starter\tabs\android\app\src\main\AndroidManifest.xml:29:17-58
+72
+73                <category android:name="android.intent.category.LAUNCHER" />
+73-->C:\_myProject\react_native_bareTab_windows_starter\tabs\android\app\src\main\AndroidManifest.xml:30:9-68
+73-->C:\_myProject\react_native_bareTab_windows_starter\tabs\android\app\src\main\AndroidManifest.xml:30:19-66
+74            </intent-filter>
+75        </activity>
+76        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+76-->C:\_myProject\react_native_bareTab_windows_starter\tabs\android\app\src\main\AndroidManifest.xml:33:5-81
+76-->C:\_myProject\react_native_bareTab_windows_starter\tabs\android\app\src\main\AndroidManifest.xml:33:15-79
+77
+78        <meta-data
+78-->[:unimodules-react-native-adapter] C:\_myProject\react_native_bareTab_windows_starter\tabs\node_modules\@unimodules\react-native-adapter\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-14:91
+79            android:name="org.unimodules.core.AppLoader#react-native-headless"
+79-->[:unimodules-react-native-adapter] C:\_myProject\react_native_bareTab_windows_starter\tabs\node_modules\@unimodules\react-native-adapter\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-79
+80            android:value="org.unimodules.adapters.react.apploader.RNHeadlessAppLoader" />
+80-->[:unimodules-react-native-adapter] C:\_myProject\react_native_bareTab_windows_starter\tabs\node_modules\@unimodules\react-native-adapter\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-88
+81
+82        <provider
+82-->[:expo-file-system] C:\_myProject\react_native_bareTab_windows_starter\tabs\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:9-26:20
+83            android:name="expo.modules.filesystem.FileSystemFileProvider"
+83-->[:expo-file-system] C:\_myProject\react_native_bareTab_windows_starter\tabs\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:13-74
+84            android:authorities="com.tabs.FileSystemFileProvider"
+84-->[:expo-file-system] C:\_myProject\react_native_bareTab_windows_starter\tabs\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:13-74
+85            android:exported="false"
+85-->[:expo-file-system] C:\_myProject\react_native_bareTab_windows_starter\tabs\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:13-37
+86            android:grantUriPermissions="true" >
+86-->[:expo-file-system] C:\_myProject\react_native_bareTab_windows_starter\tabs\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:13-47
+87            <meta-data
+87-->[:expo-file-system] C:\_myProject\react_native_bareTab_windows_starter\tabs\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:23:13-25:70
+88                android:name="android.support.FILE_PROVIDER_PATHS"
+88-->[:expo-file-system] C:\_myProject\react_native_bareTab_windows_starter\tabs\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:17-67
+89                android:resource="@xml/file_system_provider_paths" />
+89-->[:expo-file-system] C:\_myProject\react_native_bareTab_windows_starter\tabs\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:17-67
+90        </provider>
+91
+92        <service
+92-->[:expo-location] C:\_myProject\react_native_bareTab_windows_starter\tabs\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:9-18:40
+93            android:name="expo.modules.location.services.LocationTaskService"
+93-->[:expo-location] C:\_myProject\react_native_bareTab_windows_starter\tabs\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-78
+94            android:exported="false" />
+94-->[:expo-location] C:\_myProject\react_native_bareTab_windows_starter\tabs\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:13-37
+95
+96        <activity
+96-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\tkarn\.gradle\caches\transforms-2\files-2.1\d9e7ef9822636c189e80f76d6c5562de\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+97            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+97-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\tkarn\.gradle\caches\transforms-2\files-2.1\d9e7ef9822636c189e80f76d6c5562de\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+98            android:exported="false"
+98-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\tkarn\.gradle\caches\transforms-2\files-2.1\d9e7ef9822636c189e80f76d6c5562de\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+99            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+99-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\tkarn\.gradle\caches\transforms-2\files-2.1\d9e7ef9822636c189e80f76d6c5562de\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+100
+101        <meta-data
+101-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\tkarn\.gradle\caches\transforms-2\files-2.1\bd11c4770d119783f4c7cb2d50872fae\jetified-play-services-basement-16.0.1\AndroidManifest.xml:23:9-25:69
+102            android:name="com.google.android.gms.version"
+102-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\tkarn\.gradle\caches\transforms-2\files-2.1\bd11c4770d119783f4c7cb2d50872fae\jetified-play-services-basement-16.0.1\AndroidManifest.xml:24:13-58
+103            android:value="@integer/google_play_services_version" />
+103-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\tkarn\.gradle\caches\transforms-2\files-2.1\bd11c4770d119783f4c7cb2d50872fae\jetified-play-services-basement-16.0.1\AndroidManifest.xml:25:13-66
+104
+105        <service
+105-->[androidx.room:room-runtime:2.1.0] C:\Users\tkarn\.gradle\caches\transforms-2\files-2.1\1f9600edb87ec7249ed2f749439da712\room-runtime-2.1.0\AndroidManifest.xml:25:9-27:40
+106            android:name="androidx.room.MultiInstanceInvalidationService"
+106-->[androidx.room:room-runtime:2.1.0] C:\Users\tkarn\.gradle\caches\transforms-2\files-2.1\1f9600edb87ec7249ed2f749439da712\room-runtime-2.1.0\AndroidManifest.xml:26:13-74
+107            android:exported="false" />
+107-->[androidx.room:room-runtime:2.1.0] C:\Users\tkarn\.gradle\caches\transforms-2\files-2.1\1f9600edb87ec7249ed2f749439da712\room-runtime-2.1.0\AndroidManifest.xml:27:13-37
+108        <service
+108-->[io.nlopez.smartlocation:library:3.2.11] C:\Users\tkarn\.gradle\caches\transforms-2\files-2.1\185ceba8a2b716d4f54bc4c30d5e7046\jetified-library-3.2.11\AndroidManifest.xml:19:9-21:40
+109            android:name="io.nlopez.smartlocation.activity.providers.ActivityGooglePlayServicesProvider$ActivityRecognitionService"
+109-->[io.nlopez.smartlocation:library:3.2.11] C:\Users\tkarn\.gradle\caches\transforms-2\files-2.1\185ceba8a2b716d4f54bc4c30d5e7046\jetified-library-3.2.11\AndroidManifest.xml:20:13-132
+110            android:exported="false" />
+110-->[io.nlopez.smartlocation:library:3.2.11] C:\Users\tkarn\.gradle\caches\transforms-2\files-2.1\185ceba8a2b716d4f54bc4c30d5e7046\jetified-library-3.2.11\AndroidManifest.xml:21:13-37
+111        <service
+111-->[io.nlopez.smartlocation:library:3.2.11] C:\Users\tkarn\.gradle\caches\transforms-2\files-2.1\185ceba8a2b716d4f54bc4c30d5e7046\jetified-library-3.2.11\AndroidManifest.xml:22:9-24:40
+112            android:name="io.nlopez.smartlocation.geofencing.providers.GeofencingGooglePlayServicesProvider$GeofencingService"
+112-->[io.nlopez.smartlocation:library:3.2.11] C:\Users\tkarn\.gradle\caches\transforms-2\files-2.1\185ceba8a2b716d4f54bc4c30d5e7046\jetified-library-3.2.11\AndroidManifest.xml:23:13-127
+113            android:exported="false" />
+113-->[io.nlopez.smartlocation:library:3.2.11] C:\Users\tkarn\.gradle\caches\transforms-2\files-2.1\185ceba8a2b716d4f54bc4c30d5e7046\jetified-library-3.2.11\AndroidManifest.xml:24:13-37
+114        <service
+114-->[io.nlopez.smartlocation:library:3.2.11] C:\Users\tkarn\.gradle\caches\transforms-2\files-2.1\185ceba8a2b716d4f54bc4c30d5e7046\jetified-library-3.2.11\AndroidManifest.xml:25:9-27:40
+115            android:name="io.nlopez.smartlocation.geocoding.providers.AndroidGeocodingProvider$AndroidGeocodingService"
+115-->[io.nlopez.smartlocation:library:3.2.11] C:\Users\tkarn\.gradle\caches\transforms-2\files-2.1\185ceba8a2b716d4f54bc4c30d5e7046\jetified-library-3.2.11\AndroidManifest.xml:26:13-120
+116            android:exported="false" />
+116-->[io.nlopez.smartlocation:library:3.2.11] C:\Users\tkarn\.gradle\caches\transforms-2\files-2.1\185ceba8a2b716d4f54bc4c30d5e7046\jetified-library-3.2.11\AndroidManifest.xml:27:13-37
+117    </application>
+118
+119</manifest>
