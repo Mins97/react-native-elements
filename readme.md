@@ -6,7 +6,7 @@ https://reactnativeelements.com/docs/
 
 ## 다운로드
 ```
-git clone https://github.com/Mins97/react-native-elements.git && cd react-native-elements && npm i
+git clone https://github.com/Mins97/react-native-elements.git && cd react-native-elements/tabs && npm i
 ```
 
 ## 업로드 쉘 스크립트
