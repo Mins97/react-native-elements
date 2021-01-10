@@ -19,7 +19,12 @@ npx react-native init AwesomeProject
 
 ### 사용한 라이브러리
 ```
+기본 tab 라이브러리
 npm install react-native-elements
 npm install @react-navigation/native @react-navigation/stack
 npm install react-native-reanimated react-native-gesture-handler react-native-screens react-native-safe-area-context @react-native-community/masked-view
+
+추가된 라이브러리
+npm install react-native-elements
+npm i --save react-native-vector-icons
 ```
