@@ -1,4 +1,4 @@
-# react_native_element_UI_sample
+# react-native-elements
 show react-native-element-UI samples.
 
 # react native element의 샘플 예제입니다.
