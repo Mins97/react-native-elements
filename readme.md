@@ -4,7 +4,11 @@ show react-native-element-UI samples.
 # react native element의 샘플 예제입니다.
 https://reactnativeelements.com/docs/
 
-# 실행 쉘 스크립트
+## 다운로드
+```
+git clone https://github.com/Mins97/react-native-elements.git && cd react-native-elements && npm i
+```
+## 실행 쉘 스크립트
 sh run_ios
 sh start
 
