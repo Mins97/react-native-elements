@@ -1,6 +1,6 @@
 import React from 'react';
 import { View } from 'react-native';
-export default function Badge() {
+export default function ListItemPage() {
   return (
     <View />
   );

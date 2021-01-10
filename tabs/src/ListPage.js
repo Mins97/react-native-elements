@@ -6,7 +6,7 @@ export default function ListPage({ navigation }) {
     <FlatList data={list} renderItem={({ item, index }) =>
       <Button
         disabled={index == 0 ? true : false}
-        onPress={() => { navigation.navigate(item) }}
+        onPress={() => { navigation.navigate(item + "Page") }}
         color={index % 2 ? "#1e90ff" : "#1090f0"}
         title={item} />
     } keyExtractor={(item, index) => index} />

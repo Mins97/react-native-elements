@@ -27,4 +27,5 @@ npm install react-native-reanimated react-native-gesture-handler react-native-sc
 추가된 라이브러리
 npm install react-native-elements
 npm i --save react-native-vector-icons
+react-native link react-native-vector-icons
 ```

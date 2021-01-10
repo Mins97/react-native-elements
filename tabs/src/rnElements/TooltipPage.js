@@ -1,6 +1,6 @@
 import React from 'react';
 import { View } from 'react-native';
-export default function Input() {
+export default function TooltipPage() {
   return (
     <View />
   );

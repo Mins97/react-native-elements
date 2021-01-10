@@ -4,34 +4,34 @@ import { NavigationContainer } from '@react-navigation/native';
 // Pages
 import EmptyPage from './EmptyPage';
 import SamplePage from './SamplePage';
-import HeaderPage from './HeaderPage';
+//import HeaderPage from './HeaderPage';
 import ListPage from './ListPage';
 
 // 1. Stack Navigator
 const s = createStackNavigator();
 import { createStackNavigator } from '@react-navigation/stack';
-import Avatar from './rnElements/Avatar';
-import Badge from './rnElements/Badge';
-import BottomSheet from './rnElements/BottomSheet';
-import Button from './rnElements/Button';
-import ButtonGroup from './rnElements/ButtonGroup';
-import Card from './rnElements/Card';
-import CheckBox from './rnElements/CheckBox';
-import Divider from './rnElements/Divider';
-import Header from './rnElements/Header';
-import Icon from './rnElements/Icon';
-import Image from './rnElements/Image';
-import Input from './rnElements/Input';
-import ListItem from './rnElements/ListItem';
-import Overlay from './rnElements/Overlay';
-import Pricing from './rnElements/Pricing';
-import Rating from './rnElements/Rating';
-import SearchBar from './rnElements/SearchBar';
-import Slider from './rnElements/Slider';
-import SocialIcon from './rnElements/SocialIcon';
-import Text from './rnElements/Text';
-import Tile from './rnElements/Tile';
-import Tooltip from './rnElements/Tooltip';
+import AvatarPage from './rnElements/AvatarPage';
+import BadgePage from './rnElements/BadgePage';
+import BottomSheetPage from './rnElements/BottomSheetPage';
+import ButtonPage from './rnElements/ButtonPage';
+import ButtonGroupPage from './rnElements/ButtonGroupPage';
+import CardPage from './rnElements/CardPage';
+import CheckBoxPage from './rnElements/CheckBoxPage';
+import DividerPage from './rnElements/DividerPage';
+import HeaderPage from './rnElements/HeaderPage';
+import IconPage from './rnElements/IconPage';
+import ImagePage from './rnElements/ImagePage';
+import InputPage from './rnElements/InputPage';
+import ListItemPage from './rnElements/ListItemPage';
+import OverlayPage from './rnElements/OverlayPage';
+import PricingPage from './rnElements/PricingPage';
+import RatingPage from './rnElements/RatingPage';
+import SearchBarPage from './rnElements/SearchBarPage';
+import SliderPage from './rnElements/SliderPage';
+import SocialIconPage from './rnElements/SocialIconPage';
+import TextPage from './rnElements/TextPage';
+import TilePage from './rnElements/TilePage';
+import TooltipPage from './rnElements/TooltipPage';
 
 export default function Nav() {
   return (
@@ -39,10 +39,10 @@ export default function Nav() {
       <s.Navigator>
         <s.Screen name="ListPage" component={ListPage} />
         {elementList.map(r =>
-          <s.Screen name={r.name} component={r} />)}
+          <s.Screen key={(i, a) => a} name={r.name} component={r} />)}
         <s.Screen name="EmptyPage" component={EmptyPage} />
         <s.Screen name="SamplePage" component={SamplePage} />
-        <s.Screen name="HeaderPage" component={HeaderPage} />
+        {/* <s.Screen name="HeaderPage" component={HeaderPage} /> */}
       </s.Navigator>
     </NavigationContainer>
   );
@@ -66,26 +66,26 @@ export default function Nav() {
 // };
 
 const elementList =
-  [Avatar
-    , Badge
-    , BottomSheet
-    , Button
-    , ButtonGroup
-    , Card
-    , CheckBox
-    , Divider
-    , Header
-    , Icon
-    , Image
-    , Input
-    , ListItem
-    , Overlay
-    , Pricing
-    , Rating
-    , SearchBar
-    , Slider
-    , SocialIcon
-    , Text
-    , Tile
-    , Tooltip]
+  [AvatarPage
+    , BadgePage
+    , BottomSheetPage
+    , ButtonPage
+    , ButtonGroupPage
+    , CardPage
+    , CheckBoxPage
+    , DividerPage
+    , HeaderPage
+    , IconPage
+    , ImagePage
+    , InputPage
+    , ListItemPage
+    , OverlayPage
+    , PricingPage
+    , RatingPage
+    , SearchBarPage
+    , SliderPage
+    , SocialIconPage
+    , TextPage
+    , TilePage
+    , TooltipPage]
 const basicList = [];
